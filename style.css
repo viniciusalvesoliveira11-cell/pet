@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 'Roboto';
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background: #eeecec;
+    color: #333333;
+}
+
+li{
+    display:inline-block;
+}
+nav{
+    display:inline-block;
+}
+header{
+margin: 30px 0px 144px 70px;
+}
+a{
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    color: #333333;
+    transition: opacity 0,2s;
+    text-decoration: none;
+}
+a:hover{
+opacity: 0.8;}
+
+.botao-login{
+
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #7186e4;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(226, 220, 220);
+    transition: opacity 0,2s;
+}
+.botao-login:hover{
+    opacity: 0.8;
+    background-color: rgb(122, 153, 238);
+}
+
+.logo{
+width: 40%;
+vertical-align: middle;
+}
+
+.texto{
+width: 40%;
+display: inline-block;
+vertical-align: middle;
+margin: 0 0 0 5px;
+text-align: left;
+}
+
+main{
+text-align: center;
+
+}
+
+.botao-Explore{
+width: 190px;
+height: 34px;
+cursor: pointer;
+background-color: #5ae67d;
+border: none;
+border-radius: 20px;
+font-size: 20px;
+font-weight: 500;
+box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+transition: opacity 0.3s;
+}
+
+.botao-Explore:hover{
+opacity: 0.7;
+}
+
+.titulo{
+font-size: 40px;
+font-weight:900;
+color: black;
+}
+
+.sub-titulo{
+
+    color: #0a0101;
+    line-height: 60px;
+    font-size: 30px;
+
+}
+.paragrafo{
+color: #333333;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: justify;
+margin: 20px 0 30px 0;
+max-width: 500px;
+
+}
+footer{
+text-align: center;
+background: #f4f4f4;
+padding: 60px;
+font-size: 14px;
+margin-top: 100px;
+
+}
+@media (max-width:768px){
+header{
+margin: 30px 0px 144px 0px;
+text-align: center;
+width: 100%;
+
+}
+a{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 5px 0 0;
+   
+}
+.botao-login{
+
+    width: 90x;
+    height: 32px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(226, 220, 220);
+    transition: opacity 0,2s;
+}
+}
