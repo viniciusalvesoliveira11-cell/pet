@@ -19,7 +19,7 @@ nav{
 header{
 margin: 30px 0px 144px 70px;
 }
-a{
+.link-menu{
 
     font-weight: 600;
     font-size: 30px;
@@ -121,7 +121,8 @@ margin-top: 100px;
 .img-dog{ 
     display: block;
     width: 70%;
-    height: 450px;
+    max-width: 600px;
+    height: 350px;
     object-fit:cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
@@ -134,11 +135,11 @@ text-align: center;
 width: 100%;
 
 }
-a{
+.link-menu{
 
-    font-weight: 500;''
-    font-size: 16px;
-    line-height: 28px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
     margin: 0 5px 0 0;
    
 }
@@ -172,54 +173,3 @@ height: 200px;
 }
 }
 
-
-@media (max-width:768px) {
-    header {
-        margin: 30px 0px 60px 0px;
-        text-align: center;
-        width: 100%;
-
-    }
-
-    a {
-
-        font-weight: 500;
-        ''
-        font-size: 16px;
-        line-height: 28px;
-        margin: 0 5px 0 0;
-
-    }
-
-    .botao-login {
-
-        width: 90px;
-        height: 32px;
-        border-radius: 15px;
-        font-size: 16px;
-        font-weight: 500;
-
-    }
-
-    .logo {
-        width: 40%;
-
-        display: block;
-        margin: 0 auto 50px auto;
-    }
-
-    .texto {
-        width: 80%;
-        text-align: center;
-    }
-
-    .titulo {
-        font-size: 30px;
-
-    }
-
-    .img-dog {
-        max-width: 250px;
-        heigth: 400px;
-    }
-}
